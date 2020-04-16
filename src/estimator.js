@@ -61,7 +61,7 @@ const covid19ImpactEstimator = (data) => {
     result.impact.severeCasesByRequestedTime,
     data.totalHospitalBeds
   );
-
+  
   result.severeImpact.hospitalBedsByRequestedTime = getRemainingHospitalBedsCount(
     result.severeImpact.severeCasesByRequestedTime,
     data.totalHospitalBeds
